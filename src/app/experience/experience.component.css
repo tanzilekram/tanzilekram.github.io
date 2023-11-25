@@ -1,0 +1,112 @@
+/* Default styles */
+.heading {
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section-heading {
+  padding-bottom: 1%;
+  text-align: center;
+  border-bottom: 5px solid brown;
+  width: max-content;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.exp-card {
+  height: 400px;
+  display: flex;
+  flex-direction: column; /* Change to column on smaller screens */
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+}
+
+.row {
+  margin-bottom: 5%;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.client-logo {
+  width: 230px;
+  height: 200px;
+  padding: 10% 0;
+  margin-left: 10px;
+}
+
+.client-name {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.tenure {
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+  font-weight: light;
+}
+
+/* right side */
+
+.right-side{
+  margin: 20px; /* Add margin to all sides */
+}
+
+.role {
+  font-weight: bold;
+}
+
+.desc {
+  font-size: medium;
+  font-family: sans-serif;
+}
+
+.resp-title {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.resp-list{
+  text-align: justify; 
+  margin-right: 60px;
+}
+
+.resp-item {
+  font-size: medium;
+}
+
+ul li::marker {
+  content: "✅";
+}
+
+ul li{
+  margin-bottom: 15px;
+  font-family: sans-serif;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .exp-card {
+    height: auto; /* Adjust height for smaller screens */
+    margin: 10px; /* Add margin to all sides */
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .right-side {
+    margin-top: 10px; /* Add space between left and right sides */
+  }
+}

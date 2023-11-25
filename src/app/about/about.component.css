@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@300;400&display=swap');
+
+.about{
+  overflow-x: hidden;
+  margin-bottom: 5%;
+}
+
+.container{
+  padding-top: 2%;
+  margin-bottom: 5%;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.image-wrapper{
+  margin: 1% 0;
+}
+
+.about-paragraph{
+
+  text-align: justify;
+  justify-content: center;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  font-weight: normal;
+  opacity: 0.8;
+  margin-bottom: 5%;
+
+}
+
+.heading-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.heading {
+  font-family: Montserrat,sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 5px solid  brown;
+  padding-bottom: 8px;
+  width: max-content;
+}
+
+
+@media screen and (max-width:992px) {
+  .about{
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+    img {
+      text-align: center;
+      align-items: center;
+      align-self: center;
+      padding: 0 4%;
+    }
+
+
+    .aboutmeheading {
+      font-size: 2rem;
+      margin: 2% 5%;
+    }
+
+    .about-paragraph {
+      padding: 0 5%;
+    }
+
+
+}

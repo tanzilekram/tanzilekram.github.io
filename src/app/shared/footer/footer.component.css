@@ -1,0 +1,161 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper-2{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fa-instagram{
+ 
+  color: rgba(252,70,107,1);
+}
+
+.fa-envelope{
+  color: #01C6FF;;
+}
+
+.fa-x-twitter{
+  color: black;
+}
+
+.fa-github{
+  color: black;
+}
+
+.fa-linkedin{
+  color: #0077b5;
+}
+
+.pages,
+.social{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 2% 0;
+  padding: 0 10%;
+}
+
+i{
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+a{
+  margin: 10px 0;
+}
+
+.txt{
+  color: #30D07D;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.wrapper-1{
+  border-top: 1px solid black;
+  padding: 1rem 0;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  align-items:flex-start;
+}
+
+.foot-icons{
+  width: 30px;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.footer_copy{
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+  color: brown;
+}
+
+.link{
+  text-decoration: none;
+  color: darkgreen;
+  transition: 0.6s ease-in;
+}
+
+.link:hover{
+  color: white;
+  background-color: #30D07D;
+  transition: 0.6s ease-out;
+}
+
+.custom-pos-1{
+  padding-top: 5px;
+}
+
+.lang-txt{
+  font-family: inherit;
+  font-weight: 600;
+  margin-top: 5%;
+  line-height: 1.5rem;
+  color: #7A88A8;
+  margin-bottom: auto;
+}
+
+.lang-3{
+  width: max-content;
+}
+
+.page-link:hover{
+  
+  color: #30D07D;
+  transition: 0.6s ease-out;
+}
+
+
+@media only screen and (max-width:992px) {
+  .language {
+    padding-top: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+     .drop-down {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+     }
+}
+
+@media only screen and (max-width:600px) {
+  .container{
+    margin-bottom: 8vh;
+  }
+
+  .language{
+    justify-content: center;
+    align-items: center;
+  }
+
+  a {
+    margin: 6px 0;
+  }
+
+  i {
+    color: #7A88A8;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .footer_copy{
+    margin-bottom: 10vh;
+  }
+}
